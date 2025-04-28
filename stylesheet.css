@@ -1,0 +1,60 @@
+* {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  height: 95vh;
+  width: 60vw;
+  border: solid red;
+  background-color: red;
+  padding: 10vh;
+  margin: 10vh;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.button {
+  position: relative;
+  left: -19vh;
+  top: -5vh;
+}
+
+p {
+  font-size: 5vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  width: 60vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+}
+
+.child {
+  background-color: white;
+
+  border: solid;
+  margin: 1%;
+  height: 1%;
+  width: 5%;
+}
+
+.circle {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  gap: 100px;
+}
