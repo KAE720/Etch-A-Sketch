@@ -12,12 +12,12 @@ let button = document.querySelector("button");
 
 Array.from(child).forEach(function (element) {
   element.addEventListener("mouseover", function () {
-    element.style.color = "yellow";
+    element.style.backgroundColor = "black";
   });
 });
 
 button.addEventListener("click", function () {
   Array.from(child).forEach(function (element) {
-    element.style.color = "";
+    element.style.backgroundColor = "";
   });
 });
